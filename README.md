@@ -29,3 +29,9 @@ In the menu you have 4 main elements:
 
 When the addons detects that a prop shouldn't be spawned, it prevents it from being spawned on the server and warn the player about it.
 
+## Screenshots
+
+![Addon Screenshot](https://i.imgur.com/Cetp0FL.png "The menu")
+![Addon Screenshot](https://i.imgur.com/lwe4Kgg.png "The menu with elements selected")
+![Addon Screenshot](https://i.imgur.com/QJuRkKj.png "The Popup")
+![Addon Screenshot](https://i.imgur.com/dfn1VrP.png "The menu with the element we added")
