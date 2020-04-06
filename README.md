@@ -2,6 +2,8 @@
 
 This addons allows you to manage a blacklist or whitelist of props on your server.
 
+**Get in via the Workshop here: https://steamcommunity.com/sharedfiles/filedetails/?id=2051076356**
+
 ## Installation
 
 Put **clist** inside `garrysmod/addons` folder. Now restart your server and enjoy !
