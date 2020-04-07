@@ -37,6 +37,7 @@ end
 
 
 net.Receive("cList:AddElement", function(len, ply)
+  if !ply:IsSuperAdmin() then return end
   local element = net.ReadString()
   AddElement(element)
   net.Start("cList:Message")
@@ -59,6 +60,7 @@ local function RemoveElement(element)
 end
 
 net.Receive("cList:RemoveElement", function(len, ply)
+  if !ply:IsSuperAdmin() then return end
   local element = net.ReadString()
   RemoveElement(element)
   net.Start("cList:Message")
@@ -69,6 +71,7 @@ end)
 // Settings
 
 net.Receive("cList:ChangeSettings", function(len, ply)
+  if !ply:IsSuperAdmin() then return end
   cList.Settings = net.ReadTable()
   file.Write( "clist_settings.json", util.TableToJSON(cList.Settings))
   net.Start("cList:Message")
